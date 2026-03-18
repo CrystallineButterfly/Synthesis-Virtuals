@@ -1,6 +1,6 @@
 # Commerce Identity Fabric
 
-- **Repo:** TODO_GITHUB_URL/Synthesis-Virtuals
+- **Repo:** https://github.com/CrystallineButterfly/Synthesis-Virtuals
 - **Primary track:** Virtuals
 - **Overlap targets:** ENS, Slice, SelfProtocol, ERC-8004 Receipts, PayWithLocus, SuperRare
 - **Primary contract:** CommerceIdentityRegistry
