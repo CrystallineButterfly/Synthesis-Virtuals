@@ -1,6 +1,6 @@
 # Commerce Identity Fabric
 
-- **Repo:** https://github.com/CrystallineButterfly/Synthesis-Virtuals
+- **Repo:** TODO_GITHUB_URL/Synthesis-Virtuals
 - **Primary track:** Virtuals
 - **Overlap targets:** ENS, Slice, SelfProtocol, ERC-8004 Receipts, PayWithLocus, SuperRare
 - **Primary contract:** CommerceIdentityRegistry
@@ -18,10 +18,10 @@ An identity fabric that maps agent personas, permissions, and payment surfaces i
   "status": "verified",
   "project_name": "Commerce Identity Fabric",
   "track": "Virtuals",
-  "plan_id": "0xcac8356e30d893e47641217ecc04588082cd6cb3ecd73def3ee016ac9dbf5b9a",
-  "simulation_hash": "0xb8d39605f3f55f8dfd518041d4da549076de1c04bc0b47dc9db868c5ef4eea0b",
+  "plan_id": "0xee4e20021bb63acd1610fe3aa7497dd33c3dded1f6634adbd6931c2cc5a4e001",
+  "simulation_hash": "0xfa2ac8381016c66d081e56d10a8102ebf40dad1e339ba259456dfe2b3eb076d9",
   "execution_status": "awaiting_credentials",
   "tx_ids": [],
-  "created_at": "2026-03-18T21:44:21+00:00"
+  "created_at": "2026-03-18T23:01:38+00:00"
 }
 ```
