@@ -1,9 +1,13 @@
+
 [project]
 name = "synthesis_virtuals"
 version = "0.1.0"
 description = "An identity fabric that maps agent personas, permissions, and payment surfaces into one reusable commerce and delegation layer."
 readme = "README.md"
 requires-python = ">=3.13"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
 
 [tool.ruff]
 line-length = 100
