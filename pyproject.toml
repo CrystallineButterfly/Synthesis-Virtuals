@@ -1,0 +1,16 @@
+[project]
+name = "synthesis_virtuals"
+version = "0.1.0"
+description = "An identity fabric that maps agent personas, permissions, and payment surfaces into one reusable commerce and delegation layer."
+readme = "README.md"
+requires-python = ">=3.13"
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ty.terminal]
+error-on-warning = true
+
+[tool.ty.environment]
+python-version = "3.13"
