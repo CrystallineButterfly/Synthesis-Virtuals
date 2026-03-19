@@ -7,5 +7,577 @@
     "details": {
       "status": "ready_for_credentials"
     }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:28+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "identity_state",
+          "description": "Names, wallets, manifests, and verification proofs.",
+          "score": 95
+        },
+        {
+          "name": "permissions",
+          "description": "Which principals can act on which rails.",
+          "score": 90
+        },
+        {
+          "name": "reputation_events",
+          "description": "Receipts, scores, and attestation updates.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and public evidence links.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:28+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0x6362c7e1c2cde8318db2d4a4cd14a3ce4e61d707f6d4c88bb2cf0e6d87de4ecc"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:28+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x6ae8d0f506dd4c66a31567574c839b7c22c49fee44a889adbb0db7b54cbfcf52"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:28+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "ENS_NAME",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "RPC_URL",
+        "SELF_PROTOCOL_API_KEY",
+        "SELF_VERIFICATION_URL",
+        "SLICE_API_KEY",
+        "SLICE_HOOK_URL",
+        "SUPERRARE_API_KEY",
+        "SUPERRARE_MINT_URL",
+        "VIRTUALS_API_URL"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:28+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Commerce Identity Fabric",
+      "track": "Virtuals",
+      "plan_id": "0x6362c7e1c2cde8318db2d4a4cd14a3ce4e61d707f6d4c88bb2cf0e6d87de4ecc",
+      "simulation_hash": "0x6ae8d0f506dd4c66a31567574c839b7c22c49fee44a889adbb0db7b54cbfcf52",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:30:28+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:28+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "identity_state",
+          "description": "Names, wallets, manifests, and verification proofs.",
+          "score": 95
+        },
+        {
+          "name": "permissions",
+          "description": "Which principals can act on which rails.",
+          "score": 90
+        },
+        {
+          "name": "reputation_events",
+          "description": "Receipts, scores, and attestation updates.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and public evidence links.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:28+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0x6362c7e1c2cde8318db2d4a4cd14a3ce4e61d707f6d4c88bb2cf0e6d87de4ecc"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:28+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x6ae8d0f506dd4c66a31567574c839b7c22c49fee44a889adbb0db7b54cbfcf52"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:28+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "ENS_NAME",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "RPC_URL",
+        "SELF_PROTOCOL_API_KEY",
+        "SELF_VERIFICATION_URL",
+        "SLICE_API_KEY",
+        "SLICE_HOOK_URL",
+        "SUPERRARE_API_KEY",
+        "SUPERRARE_MINT_URL",
+        "VIRTUALS_API_URL"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:28+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Commerce Identity Fabric",
+      "track": "Virtuals",
+      "plan_id": "0x6362c7e1c2cde8318db2d4a4cd14a3ce4e61d707f6d4c88bb2cf0e6d87de4ecc",
+      "simulation_hash": "0x6ae8d0f506dd4c66a31567574c839b7c22c49fee44a889adbb0db7b54cbfcf52",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:30:28+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:39:23.678178+00:00",
+    "stage": "security_review",
+    "actor": "audit_pass",
+    "message": "Completed the shared hardening and offline-artifact audit pass.",
+    "details": {
+      "status": "audited_ready_pending_live_credentials",
+      "primary_contract": "CommerceIdentityRegistry.sol"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:14+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "identity_state",
+          "description": "Names, wallets, manifests, and verification proofs.",
+          "score": 95
+        },
+        {
+          "name": "permissions",
+          "description": "Which principals can act on which rails.",
+          "score": 90
+        },
+        {
+          "name": "reputation_events",
+          "description": "Receipts, scores, and attestation updates.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and public evidence links.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:14+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xa512c4bae0645f9a33b19873bfee7959fc0f735d5691c29b6f5a0540928bec26",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:14+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x90993f14e15f3d5a8bd5431284c396a45cae0c6a3c368b16981bbfda8e18c9c5"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:14+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "SELF_PROTOCOL_API_KEY",
+        "SELF_VERIFICATION_URL",
+        "SLICE_API_KEY",
+        "SLICE_HOOK_URL",
+        "SUPERRARE_API_KEY",
+        "SUPERRARE_MINT_URL",
+        "VIRTUALS_API_URL"
+      ],
+      "artifact_count": 2
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:14+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Commerce Identity Fabric",
+      "track": "Virtuals",
+      "plan_id": "0xa512c4bae0645f9a33b19873bfee7959fc0f735d5691c29b6f5a0540928bec26",
+      "simulation_hash": "0x90993f14e15f3d5a8bd5431284c396a45cae0c6a3c368b16981bbfda8e18c9c5",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json"
+      ],
+      "partner_statuses": {
+        "Virtuals": "awaiting_credentials",
+        "ENS": "prepared_contract_call",
+        "Slice": "awaiting_credentials",
+        "SelfProtocol": "awaiting_credentials",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "PayWithLocus": "awaiting_credentials",
+        "SuperRare": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:49:14+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:53+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "identity_state",
+          "description": "Names, wallets, manifests, and verification proofs.",
+          "score": 95
+        },
+        {
+          "name": "permissions",
+          "description": "Which principals can act on which rails.",
+          "score": 90
+        },
+        {
+          "name": "reputation_events",
+          "description": "Receipts, scores, and attestation updates.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and public evidence links.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:53+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xfc24c435246ba880e709ab19a2bccc5d15fa0641a1bd202725502ab0740855eb",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:53+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xe3ebec6865ee6fa39a3fdadc5ca347f467db2943723ba1403c3850c43dce7d8e"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:53+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "SELF_PROTOCOL_API_KEY",
+        "SELF_VERIFICATION_URL",
+        "SLICE_API_KEY",
+        "SLICE_HOOK_URL",
+        "SUPERRARE_API_KEY",
+        "SUPERRARE_MINT_URL",
+        "VIRTUALS_API_URL"
+      ],
+      "artifact_count": 2
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:53+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Commerce Identity Fabric",
+      "track": "Virtuals",
+      "plan_id": "0xfc24c435246ba880e709ab19a2bccc5d15fa0641a1bd202725502ab0740855eb",
+      "simulation_hash": "0xe3ebec6865ee6fa39a3fdadc5ca347f467db2943723ba1403c3850c43dce7d8e",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json"
+      ],
+      "partner_statuses": {
+        "Virtuals": "awaiting_credentials",
+        "ENS": "prepared_contract_call",
+        "Slice": "awaiting_credentials",
+        "SelfProtocol": "awaiting_credentials",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "PayWithLocus": "awaiting_credentials",
+        "SuperRare": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:50:53+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:49+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "identity_state",
+          "description": "Names, wallets, manifests, and verification proofs.",
+          "score": 95
+        },
+        {
+          "name": "permissions",
+          "description": "Which principals can act on which rails.",
+          "score": 90
+        },
+        {
+          "name": "reputation_events",
+          "description": "Receipts, scores, and attestation updates.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and public evidence links.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:49+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xf52a4115442cb00fb96e9cf39d26cc5921e927fccb666ea0cc0d73cd7159d0ce",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:49+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xb554ce92529c731cf4986239ad12dd40165d724ea00084254f5cd091c4633e51"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:49+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "SELF_PROTOCOL_API_KEY",
+        "SELF_VERIFICATION_URL",
+        "SLICE_API_KEY",
+        "SLICE_HOOK_URL",
+        "SUPERRARE_API_KEY",
+        "SUPERRARE_MINT_URL",
+        "VIRTUALS_API_URL"
+      ],
+      "artifact_count": 2
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:49+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Commerce Identity Fabric",
+      "track": "Virtuals",
+      "plan_id": "0xf52a4115442cb00fb96e9cf39d26cc5921e927fccb666ea0cc0d73cd7159d0ce",
+      "simulation_hash": "0xb554ce92529c731cf4986239ad12dd40165d724ea00084254f5cd091c4633e51",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json"
+      ],
+      "partner_statuses": {
+        "Virtuals": "awaiting_credentials",
+        "ENS": "prepared_contract_call",
+        "Slice": "awaiting_credentials",
+        "SelfProtocol": "awaiting_credentials",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "PayWithLocus": "awaiting_credentials",
+        "SuperRare": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:51:49+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:22+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "identity_state",
+          "description": "Names, wallets, manifests, and verification proofs.",
+          "score": 95
+        },
+        {
+          "name": "permissions",
+          "description": "Which principals can act on which rails.",
+          "score": 90
+        },
+        {
+          "name": "reputation_events",
+          "description": "Receipts, scores, and attestation updates.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and public evidence links.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:22+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x2218e03155c980f99b9a90e875bdeab31ff7ceb33502f59cb2cc37f6d8f92e65",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:22+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xa54e0d53c11c3a5d57b2e59be2381052b79c3f21c68c3bf674ca6eb6aaf24642"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:22+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "SELF_PROTOCOL_API_KEY",
+        "SELF_VERIFICATION_URL",
+        "SLICE_API_KEY",
+        "SLICE_HOOK_URL",
+        "SUPERRARE_API_KEY",
+        "SUPERRARE_MINT_URL",
+        "VIRTUALS_API_URL"
+      ],
+      "artifact_count": 2
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:22+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Commerce Identity Fabric",
+      "track": "Virtuals",
+      "plan_id": "0x2218e03155c980f99b9a90e875bdeab31ff7ceb33502f59cb2cc37f6d8f92e65",
+      "simulation_hash": "0xa54e0d53c11c3a5d57b2e59be2381052b79c3f21c68c3bf674ca6eb6aaf24642",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json"
+      ],
+      "partner_statuses": {
+        "Virtuals": "awaiting_credentials",
+        "ENS": "prepared_contract_call",
+        "Slice": "awaiting_credentials",
+        "SelfProtocol": "awaiting_credentials",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "PayWithLocus": "awaiting_credentials",
+        "SuperRare": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:52:22+00:00"
+    }
   }
 ]
