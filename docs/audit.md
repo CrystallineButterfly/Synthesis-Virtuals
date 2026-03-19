@@ -43,6 +43,14 @@ when live network credentials are absent. Network-only partners still report mis
 `cast send` output is now parsed for `transactionHash` explicitly before falling back to the
 raw stdout payload.
 
+## Track-specific trust boundaries
+
+- primary wrapper contract: `CommerceIdentityRegistry`
+- live-only partners: Virtuals, Slice, SelfProtocol, PayWithLocus, SuperRare
+- offline-prepared partners: ENS (prepared_contract_call), ERC-8004 Receipts (prepared_contract_call)
+- highest-sensitivity actions: selfprotocol_zk_verify
+- latest verification artifact: `artifacts/verification/0x2218e03155c980f99b9a90e875bdeab31ff7ceb33502f59cb2cc37f6d8f92e65.json`
+
 ## Current posture
 
 ### Good

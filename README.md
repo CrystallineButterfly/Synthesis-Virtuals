@@ -5,7 +5,7 @@
 - **Category:** identity
 - **Primary contract:** `CommerceIdentityRegistry`
 - **Primary module:** `virtuals_fabric`
-- **Submission status:** implementation ready, waiting for credentials and TxIDs.
+- **Submission status:** audited and offline-demo ready; optional live partner credentials unlock network execution.
 
 ## What this repo does
 
@@ -67,6 +67,31 @@ flowchart TD
 3. Persist a dry-run artifact before any live execution.
 4. Enforce onchain policy through the guarded contract wrapper.
 5. Verify outputs, update receipts, and render submission material.
+
+## Current readiness
+
+- **Latest verification:** `verified` at `2026-03-19T03:52:22+00:00`
+- **Execution mode:** `offline_prepared`
+- **Offline-prepared partners:** ENS (prepared_contract_call), ERC-8004 Receipts (prepared_contract_call)
+- **Live credential blockers:** Virtuals, Slice, SelfProtocol, PayWithLocus, SuperRare
+- **Audit docs:** `docs/audit.md`, `docs/live_readiness.md`
+
+## Most sensitive actions
+
+- `selfprotocol_zk_verify` (SelfProtocol, high)
+
+## Live blocker details
+
+- **Virtuals** — VIRTUALS_API_URL — https://www.virtuals.io/
+- **Slice** — SLICE_API_KEY, SLICE_HOOK_URL — https://docs.slice.so/
+- **SelfProtocol** — SELF_PROTOCOL_API_KEY, SELF_VERIFICATION_URL — https://docs.self.xyz/
+- **PayWithLocus** — LOCUS_API_KEY, LOCUS_PAYMENT_URL — https://docs.locus.finance/
+- **SuperRare** — SUPERRARE_API_KEY, SUPERRARE_MINT_URL — https://superrare.com/
+
+## Latest evidence artifacts
+
+- `artifacts/onchain_intents/ens_ens_publish.json`
+- `artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json`
 
 ## Security controls
 
